@@ -14,20 +14,22 @@ nav {
   background: #ff9339;
   height: 50px;
 }
- .li-navbar {
-   border: 2px solid black;
-   margin: 3px;
-   padding: 3px;
-   
- }
 
 header {
   background-color: #ff7043;
   color: yellow;
   align-items: center;
   padding: 5px 10px;
-  justify-content: center;
+  justify-content: space-between;
+  display: flex;
 }
+
+.text-header {
+display: flex;
+margin-left: 3px;
+padding: 3px;
+}
+
 .logo {
   display: flex;
   justify-content: center;
